@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Image Gallery</title>
+	<!-- // Stylesheets // -->
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+
+
+</head>
+<body>
+<div id="wrapper_sec">
+	<!--Masterhead -->
+	<div id="masthead">
+		<div class="logo"><a href="index.html"><img src="images/logo.gif" width="142" height="87" alt="" /></a></div>
+		<div class="header_rightsec">
+			<div class="rightsec_1">
+				<div class="navigation">
+					<div id="smoothmenu1" class="ddsmoothmenu">
+						<ul>
+							<li><a class="home" href="index.html">Home</a></li>
+							<li class="dropdown"><a href="#">More</a>
+								<ul>
+									<li><a href="#">Pages</a>
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="contact.html">Contact Us</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Themes</a>
+										<ul>
+											<li><a href="../grey/index.html">Grey</a></li>
+											<li><a href="../blue/index.html">Blue</a></li>
+											<li><a href="../green/index.html">Green</a></li>
+											<li><a href="../maroon/index.html">Maroon</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--Top search-->
+				<div class="top_search">
+					<input value="Enter you keywords to search" onfocus="if(this.value=='Enter you keywords to search') {this.value='';}"
+						   onblur="if(this.value=='') {this.value='Enter you keywords to search';}"name="txt" type="text" />
+					<a href="#" class="search">Search</a>
+				</div>
+			</div>
+			<div class="rightsec_2">
+				<ul class="toplinks">
+					<li><a href="#"> Browse</a></li>
+					<li><a href="#"> Upload </a></li>
+					<li> <a href="#">Create Account </a></li>
+					<li class="last"><a href="#">Sign In</a></li>   </ul>
+				<ul class="social_networks">
+					<li class="share">Share with us:</li>
+					<li><a href="#"><img src="images/socialicon1.png" alt="" /> </a></li>
+					<li> <a href="#"><img src="images/socialicon2.png" alt="" /> </a></li>
+					<li> <a href="#"><img src="images/socialicon3.png" alt="" /> </a></li>
+					<li class="last"><a href="#"><img src="images/socialicon4.png" alt="" /></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="clear" ></div>
+	</div>
+	<!--Content Sec -->
+	<div id="content_sec">
+		<div class="crumb">
+			<ul>
+				<li class="here_text txtcufon">You are here:</li>
+				<li><a href="#">Home</a></li>
+				<!--<li><a href="#">About</a></li>-->
+				<!--<li><a href="#">Information</a></li>-->
+			</ul>
+		</div>
+
+		<!--Main Section-->
+		<div class="col1">
+			<div class="clear"></div>
+			<!--    GALLERY      -->
+			<div class="mostcontainer">
+
+				<ul id="itemImage">
+
+
+
+				</ul>
+			</div>
+
+			<div class="clear"></div>
+
+			<!--Pagination -->
+
+				<div class="pagination" id="box">
+
+					<div id="page_panel3" onclick="pagination(event)"></div>
+				</div>
+
+
+
+		</div>
+		<!--Right Section   ---  MENU   -->
+		<div class="col2">
+			<div class="sideblock">
+				<h2 class="pd11">FILTERED BY</h2>
+
+			</div>
+
+			<!--menu -->
+			<div class="sideblock2">
+				<br>
+				<h2>Size</h2>
+				<ul>
+					<li>
+
+						<div class="description">
+							<h3><a href="#" onclick="imagesListSize('large')"> Large</a></h3>
+						</div>
+					</li>
+					<li>
+
+						<div class="description">
+							<h3><a href="#" onclick="imagesListSize('medium')"> Medium</a></h3>
+						</div>
+					</li>
+					<li>
+
+						<div class="description">
+							<h3><a href="#" onclick="imagesListSize('small')"> Small</a></h3>
+						</div>
+					</li>
+
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+</div>
+<div class="clear"></div>
+<!-- bottom section-->
+<div id="bottom_sec">
+	<div class="botbar">
+		<div class="innercontainer">
+			<div class="socialtitle">
+				<h3>From the twitter  <img align="right" src="images/twittericon.png"  alt="" /> </h3>
+			</div>
+			<div class="msg">
+				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed elit. Nulla sem risus, vestibulum in, volutpat eget, dapib 				                 <a href="#">http://nastunika.rusistimber.co.il</a>
+			</div>
+			<a class="follow_us" href="#"><span>Follow us</span></a>
+		</div>
+	</div>
+	<div id="bottomcontianer">
+		<div class="innercontainer">
+			<div id="footer">
+				<div class="archieve">
+					<a href="#"><img src="images/logo2.png"  alt="" /></a>
+
+				</div>
+				<div class="footer_div">
+					<h4>About us</h4>
+					<ul>
+						<li><a href="#">We're Hiring</a></li>
+						<li><a href="#">Meet the Team</a></li>
+						<li><a href="#">Updated Collections</a></li>
+						<li><a href="#">Latest Images</a></li>
+					</ul>
+				</div>
+				<div class="footer_div">
+					<h4>Features</h4>
+					<ul>
+						<li><a href="#">What's GALLERY's?</a></li>
+						<li><a href="#">Images's Button</a></li>
+						<li><a href="#">Widgets</a></li>
+					</ul>
+				</div>
+				<div class="from_fliker">
+					<h4>From Flickr</h4>
+					<ul>
+						<li><a href="#"><img src="images/fromflickr1.gif" alt="" /></a></li>
+						<li><a href="#"><img src="images/fromflickr2.gif" alt="" /></a></li>
+						<li class="nomar"><a href="#"><img src="images/fromflickr3.gif" alt="" /></a></li>
+						<li><a href="#"><img src="images/fromflickr4.gif" alt="" /></a></li>
+						<li><a href="#"><img src="images/fromflickr5.gif" alt="" /></a></li>
+						<li class="nomar"><a href="#"><img src="images/fromflickr6.gif" alt="" /></a></li>
+					</ul>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+	<div id="botbarbg">
+		<div class="innercontainer">
+			<div class="copy">Copyright &copy; 2017 Kazantseva Anastasiia, All Rights Reserved.</div>
+			<div class="powerby">Powered By: <a href="http://nastunika.rusistimber.co.il">Nastunika</a></div>
+		</div>
+	</div>
+</div>
+
+<script src="js/main.js" defer></script>
+<script src="js/pagin.js" defer></script>
+<script type="application/json" src="dir/package.json"></script>
+
+
+</body>
+</html>
